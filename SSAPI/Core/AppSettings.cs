@@ -8,9 +8,9 @@ namespace SSAPI.Core
 {
     public class AppSettings
     {
-        public string EndpointUrl { get; set; }
-        public string AuthUser { get; set; }
-        public string AuthPass { get; set; }
+        public string? EndpointUrl { get; set; }
+        public string? AuthUser { get; set; }
+        public string? AuthPass { get; set; }
     }
 
 }
